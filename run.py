@@ -2,9 +2,9 @@ import os
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 import sys
 from typing import Union, OrderedDict
-from dotenv import load_dotenv
-# Load the .env file if it exists
-load_dotenv()
+# from dotenv import load_dotenv
+# # Load the .env file if it exists
+# load_dotenv()
 
 sys.path.insert(0, os.getcwd())
 # must come before ANY torch or fastai imports
